@@ -78,6 +78,22 @@ nav {
         }
 }
 
+.container2 {
+  background-image: url("images/lions.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.container3 {
+  height: auto;
+  width: 300px;
+  padding-left: 60px;
+  display: inline-block;
+}
+
 .background {
   background-image: url("images/boat.jpg");
   background-repeat: repeat;
@@ -113,6 +129,8 @@ nav {
     }
 
 }
+
+
 
 .test {
   display: flex;
@@ -313,5 +331,21 @@ footer{
 
 .container1 {
   height: 80px;
+
+}
+
+
+
+
+
+
+.lionimg{
+
+
+    img{
+      background-size: cover;
+      height: auto;
+      width: 100%;}
+
 
 }
