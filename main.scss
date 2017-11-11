@@ -85,6 +85,16 @@ nav {
   background-position: 710px -163px;
 }
 
+.background1 {
+  background-image: url("images/tree.jpeg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+}
+
 .test {
   display: flex;
   flex-flow: row;
