@@ -1,0 +1,288 @@
+
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+
+///Homestyling
+html { width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  word-spacing: 30px;
+  min-height: 60px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+
+
+
+
+      li{
+        display: inline-block;
+        text-align: center;
+        font-size: 30px;
+      }
+}
+
+.nikolaj {
+  padding-left: 30px;
+  padding-right: 60px;
+  flex-grow: 1;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.links {
+  padding-right: 50px;
+  flex-grow: 2;
+
+      #{$a-tags} {
+        color: black;
+        text-decoration: none;
+      }
+      #{$a-tags-hover} {
+        color: #42b3b9;
+      }
+
+}
+
+
+
+
+.resume {
+  font-size: 60px;
+  color: tomato;
+    #{$a-tags} {
+      color: tomato;
+      text-decoration: none;
+    }
+
+}
+.container {
+        img {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+}
+
+.background {
+  background-image: url("images/boat.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: 710px -163px;
+}
+
+.test {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+
+}
+
+.circleimg {
+  padding-top: 80px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+    img {
+      margin-top: 120px;
+      border-radius: 50%;
+      width: 100%;
+      height: auto;
+      max-height: 350px;
+      width: auto;
+      display: block;
+
+    }
+}
+
+.words {
+  display: inline-block;
+  flex-flow: row;
+  justify-content:center;
+  align-items: top;
+  padding-top: 80px;
+  margin-left: 30px;
+  text-align: left;
+  max-width: 100%;
+  padding-right: 120px;
+
+    h1 {
+      font-size: 40px;
+      color: white;
+
+
+    }
+    h2 {
+      font-size: 25px;
+      color: white;
+
+    }
+    p {
+      padding-right: 200px;
+      min-width: 300px;
+      color: white;
+
+
+    }
+
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+.circle1 {
+  background-color: #3b5998;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+
+    #{$a-tags} {
+    color: white;
+    text-decoration: none;
+    }
+    #{$a-tags-hover} {
+    color: white;
+    }
+    a{
+      padding-top: 15px;
+      padding-right: 1px;
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+}
+.circle2 {
+  background-color: #E459F8;
+  background-image: url("images/instafade.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+
+    #{$a-tags} {
+    color: white;
+    text-decoration: none;
+
+    }
+    #{$a-tags-hover} {
+    color: white;
+    }
+    a{
+      padding-top: 15px;
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+}
+.circle3 {
+  background-color: #007bb5;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+    #{$a-tags} {
+    color:  white;
+    text-decoration: none;
+    }
+    #{$a-tags-hover} {
+    color: white;
+    }
+    a{
+      padding-top: 13px;
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+}
+
+
+footer{
+  background: #42b3b9;
+  height: 80px;
+
+}
+.footer {
+  color: black;
+  width: 100%;
+
+
+  #{$a-tags} {
+    color: black;
+    text-decoration: none;
+  }
+  #{$a-tags-hover} {
+    color: white;
+  }
+
+    p{
+      text-align: center;
+      display: flex;
+      flex-flow: row;
+    }
+}
+
+.content {
+  padding-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-flow: row;
+  align-items: center;
+  align-content: center;
+
+}
+
+///aboutsryling
+.circleimg {
+  border-radius: 50%;
+  height: 200px;
+}
+
+.here {
+  padding-right: 200px;
+  min-width: 300px;
+  color: white;
+  #{$a-tags} {
+    color: white;
+    text-decoration: none;
+  }
+  #{$a-tags-hover} {
+    color: #3f3f3f;
+  }
+
+}
+
+///ResumeStyling
+
+.container1 {
+  height: 80px;
+
+}
